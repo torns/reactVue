@@ -1,0 +1,231 @@
+.widget-header .row>.col-xs-2 {
+    padding-right: 0;
+}
+.widget-header select,
+.widget-header input{
+    padding-left: 5px;
+    color: #999;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+}
+.time-input {
+    border-radius: 4px;
+    height: 34px;
+    border: 1px solid #ccc;
+}
+.position-btn {
+    position: absolute;
+    right: 10px;
+}
+.text-bgcolor{
+    background-color: #f57c70;
+    color: #f5f5d5;
+}
+.position-span{
+    position: absolute;
+}
+.top-0{
+    top:0;
+}
+.bottom-0{
+    bottom: 0;
+}
+.right-rem{
+    right: 0.75rem;
+}
+.font-color{
+    color:#188AE2;
+}
+.margin-left{
+    margin-left: 0.75rem;
+}
+.margin-top{
+    margin-top: 1rem;
+}
+.font-size12{
+    font-size: 12px;
+}
+.pre-color{
+    color: rgba(0, 0, 0, 0.647058823529412);
+}
+.last-color{
+    font-family: 'PingFang SC Regular', 'PingFang SC';
+    color: rgba(0, 0, 0, 0.247058823529412)
+}
+.footer-edit{
+    background-color: rgba(247, 249, 250, 1);
+    color: rgba(0, 0, 0, 0.427450980392157);
+    margin-top: 0.5rem;
+}
+.list-content>.widget{
+    padding: 1.5rem 0.75rem;
+    min-height: 400px;
+}
+.footer-edit .text-center{
+    background: inherit;
+    background-color: rgba(247, 249, 250, 1);
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(233, 233, 233, 1);
+    border-radius: 4px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.footer-edit .text-center div{
+    padding: 4px 0;
+}
+.footer-edit .text-center div:nth-child(1) div{
+    border-right: 1px solid rgba(233, 233, 233, 1);
+}
+.list-content .col-md-3>.row{
+    margin: 0;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(233, 233, 233, 1);
+    -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.149019607843137);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.149019607843137);
+    border-radius: 2px;
+}
+.float{
+    float: left;
+}
+.content>div:nth-child(1){
+    width: 28%;
+}
+.span-header{
+    font-family: 'PingFang SC Bold', 'PingFang SC';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.847058823529412);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.span-content{
+    font-size: 14px;
+    height: 50px;
+    overflow-y: auto;
+}
+.span-footer{
+    font-size: 12px;
+}
+.content>div:nth-child(2){
+    width: 72%;
+    font-family: 'PingFang SC Regular', 'PingFang SC';
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.447058823529412);
+    line-height: 22px;
+}
+.drop-list{
+    position: absolute;
+    top: 32px;
+    z-index: 10;
+    width: 420px;
+    height: 100px;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(217, 217, 217, 1);
+    border-radius: 4px;
+    -moz-box-shadow: 0px 0px 4px rgba(217, 217, 217, 0.988235294117647);
+    -webkit-box-shadow: 0px 0px 4px rgba(217, 217, 217, 0.988235294117647);
+    box-shadow: 0px 0px 4px rgba(217, 217, 217, 0.988235294117647);
+    font-family: 'Microsoft YaHei';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #666666;
+    text-align: left;
+    overflow-y: auto;
+    display: none;
+}
+.drop-list div{
+    padding: 7px 0;
+    text-align: center;
+}
+.dropList-input{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+    color: #999;
+}
+.drop-list div input{
+    width: 98%;
+    height: 28px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.drop-list li{
+    height: 22px;
+    line-height: 20px;
+    padding-left: 18px;
+}
+.drop-list li:hover{
+    background-color: #1296db;
+    color: white;
+}
+.dropList i{
+    position: absolute;
+    right: 24px;
+    z-index: 9;
+    top: 10px;
+}
+.el-form-item__content{
+    float: unset!important;
+}
+/*.el-form .el-select{*/
+    /*width: 95%;*/
+/*}*/
+/*.el-scrollbar ul input{*/
+    /*width: 96%;*/
+    /*margin: 0px auto;*/
+    /*border: 1px solid #ccc;*/
+    /*border-radius: 4px;*/
+    /*padding: 4px 10px;*/
+    /*margin-left: 2%;*/
+/*}*/
+.footer-edit div div{
+    cursor: pointer;
+}
+.el-form-item__error{
+    padding-top: 0;
+}
+.app-content .widget .col-md-3{
+    padding-bottom: 1.5rem;
+}
+/*追加的*/
+.el-dialog__body{
+    margin-top: -25px;
+    padding: 0;
+}
+.el-dialog__body .modal-header{
+    margin-bottom: 20px;
+}
+.el-form.demo-ruleForm{
+    padding: 0 20px;
+}
+.el-input__inner{
+    height: 30px;
+}
+.pages{
+    position: absolute;
+    width: 100%;
+    bottom: 35px;
+}

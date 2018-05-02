@@ -1,0 +1,107 @@
+body{
+    background-color: #eee;
+    font-family: PingFangSC-Medium;
+}
+.page-header-fixed .page-container{
+    margin-top: 0;
+}
+.container-fluid .layout-sm3{
+    padding-right: 0;
+    padding-left: 0;
+    background: #fff;
+}
+/*.page-sidebar-closed .page-content-wrapper */
+.page-content{
+    /*margin-top:20px!important;*/
+    margin-bottom: 20px!important;
+    margin-left: 0!important;
+    background-color: #fff;
+}
+/*滚动条属性*/
+::-webkit-scrollbar
+{
+    width: 5px;
+    height: 5px;
+    background-color: #eee;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track
+{
+    border-radius: 10px;
+    background-color: #fff!important;
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb
+{
+    background-color: #D3D4D3;
+}
+/*.ztree{*/
+/*overflow-y: visible!important;*/
+/*}*/
+.dropdown-menu {
+    box-shadow: none!important;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active,
+.btn-default:active:focus, .btn-default:active:hover{
+    /*color: #fff;*/
+    /*border: none;*/
+}
+.dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover {
+    background-color: #fff;
+}
+select:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+.form-control:focus {
+    border-color: #e5e5e5!important;
+}
+.panel-primary {
+    border-color: #E6E6E6;
+}
+/*layout-person*/
+.view-main-person{
+    /*margin-top: 20px;*/
+}
+.view-main-person .one-project{
+    background-color: #fff;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.10);
+    border-radius: 3px;
+    overflow-y: scroll;
+}
+.view-main-person .sm3{
+    background-color: #fff;
+}
+.view-main-person .right{
+    margin-top: 20px;
+}
+.page-footer{
+    width: 100%;
+    float: left;
+    margin-top: -45px;
+}
+/*layout-home*/
+.view-main-home{
+    min-height: 520px!important;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.view-main-home .row .col-sm-3 .one-project{
+    background-color: #fff;
+    height: 280px;
+}
+:focus {
+    outline: none!important;
+}
+.btn:hover, .btn:focus, .btn.focus{
+    color: #fff;
+}
+.layout-center{
+    padding: 20px;
+    padding-right: 30px;
+    margin-top: 60px;
+}
+#root{
+    overflow-x: hidden;
+}

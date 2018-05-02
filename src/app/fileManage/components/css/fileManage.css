@@ -1,0 +1,1821 @@
+[v-cloak]{ display: none; }
+.otherPic{
+    background-color: #efefef;
+}
+.filesBox{
+    position: fixed;
+    right: 5px;
+    bottom: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.20);
+    border-radius: 3px;
+    background: #fff;
+    display: none;
+}
+.files_top{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #D8D8D8;
+    position: relative;
+    padding: 16px 0;
+}
+.rate_left{
+    font-size: 14px;
+    color: #148CF1;
+    position: absolute;
+    top: 0;
+    left: 15px;
+}
+.files_top .min{
+    position: absolute;
+    right:50px;
+}
+.files_top .max{
+    position: absolute;
+    right:50px;
+    display: none;
+}
+.files_top .files_close{
+    position: absolute;
+    right:20px;
+}
+.filesBox .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.files_menu{
+    background: #FAFAFA;
+    font-size: 12px;
+    color: #666666;
+    height: 32px;
+    line-height: 32px;
+}
+.files_menu .xs6{
+    width: 320px;
+    float: left;
+    padding-left: 15px;
+}
+.files_menu .xs2{
+    width:80px ;
+    float: left;
+}
+.uploader-list{
+    width: 560px;
+    position: relative;
+    /*height: 38px;*/
+}
+.thumbnail {
+    padding: 10px;
+    padding-left: 15px;
+    border: 0;
+    border-bottom: 1px solid #E6E6E6;
+    margin-bottom: 0;
+}
+.thumbnail>img {
+    display: inline-block;
+}
+.info{
+    display: inline-block;
+    margin-left: 13px;
+    color: #333;
+}
+.documentContent .upload{
+    background-color: #00A63C;
+    width: 7.1%;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.documentContent>.container-fluid .header{
+    margin-top:15px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #E6E6E6;
+    /*display: none;*/
+}
+.checkShow{
+    visibility: hidden;
+}
+.documentContent>.container-fluid>.header-navir{
+    margin-top:11px;
+    border-bottom: 1px solid #E6E6E6;
+    margin-bottom: 0px!important;
+}
+.documentContent>.container-fluid>.header-navir .breadcrumb{
+    padding-left: 0px;
+    background-color:#fff;
+    margin-bottom: 0px!important;
+}
+.documentContent>.container-fluid>.header-navir .breadcrumb a{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #333333;
+}
+.documentContent>.container-fluid>.header-navir .breadcrumb>.active{
+    color: #333333;
+}
+.documentContent>.container-fluid>.header-navir>div:nth-child(2){
+    margin-bottom: 11px!important;
+}
+.documentContent>.container-fluid>.header-navir .listICON{
+    background: url("../images/listICON.png") no-repeat 100%;
+    height: 32px;
+    cursor: pointer;
+}
+.documentContent>.container-fluid>.header-navir .listICON:hover{
+    background: url("../images/listICONhover.png") no-repeat 100%;
+    height: 32px;
+    cursor: pointer;
+}
+.listICONHover{
+    background: url("../images/listICONhover.png") no-repeat 100%;
+    height: 32px;
+    cursor: pointer;
+}
+.documentContent>.container-fluid>.header-navir .listThumbnail{
+    background: url("../images/listThumbnail.png") no-repeat 0%;
+    height: 32px;
+    cursor: pointer;
+}
+.listThumbnailHover{
+    background: url("../images/listThumbnailHover.png") no-repeat 0%;
+    height: 32px;
+    cursor: pointer;
+}
+.documentContent>.container-fluid>.header-navir .listThumbnail:hover{
+    background: url("../images/listThumbnailHover.png") no-repeat 0%;
+    height: 32px;
+    cursor: pointer;
+}
+.input-group{
+    width: 100%;
+}
+.input-group .form-control{
+    height: 32px;
+}
+.documentContent>.container-fluid>.header-navir>div>.input-group input{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    background: #F2F2F2;
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+}
+.documentContent>.container-fluid>.row>div>button:nth-child(2){
+    margin-left: 20px;
+    /*width: 8.4%;*/
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #666666;
+}
+.documentContent>.container-fluid>.row>div>button:nth-child(3){
+    margin-left: 20px;
+    /*width: 7.1%;*/
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #666666;
+}
+.documentContent>.container-fluid>.row>div>button:nth-child(4){
+    margin-left: 20px;
+    width: 8.5%;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #666666;
+}
+.documentContent>.container-fluid>.row>div>button:nth-child(5){
+    margin-left: 20px;
+    width: 7.1%;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #666666;
+}
+.documentContent>.container-fluid>.row>div>button.btn-default{
+    margin-top:-19px;
+}
+.documentContent>.container-fluid>.row>div>button.btn-default:hover{
+    border: 1px solid #ccc;
+    /*color: #fff;*/
+    background-color: #FFFFFF;
+}
+/*列表样式*/
+.documentContent>.container-fluid>.list>.table{
+    margin-bottom: 0px!important;
+}
+.documentContent>.container-fluid>.list .table_center{
+    overflow-y: scroll;
+}
+.documentContent>.container-fluid .table{
+    table-layout: fixed;
+}
+.documentContent>.container-fluid .table>tbody>tr>td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.documentContent>.container-fluid .list>.table>thead>tr{
+    background-color: #FAFAFA;
+}
+.documentContent>.container-fluid .list .table>tbody>tr:nth-child(even){
+    background-color: #FAFAFA;
+}
+.documentContent>.container-fluid>.list .table>thead>tr>th:nth-child(1),
+.documentContent>.container-fluid>.list .table>tbody>tr>td:nth-child(1),
+.documentContent>.container-fluid>.thumbnailList>.table>thead>tr>th:nth-child(1){
+    width: 4%;
+    padding-left: 15px;
+}
+.documentContent>.container-fluid>.list>.table>thead>tr>th:nth-child(2),
+.documentContent>.container-fluid>.thumbnailList>.table>thead>tr>th:nth-child(2){
+    width:34%;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    font-weight: unset;
+}
+.documentContent>.container-fluid>.list .table>tbody>tr>td:nth-child(2){
+    width:34.3%;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #333333;
+    cursor: pointer;
+}
+.documentContent>.container-fluid>.list>.table>thead>tr>th:nth-child(3),
+.documentContent>.container-fluid>.thumbnailList>.table>thead>tr>th:nth-child(3){
+    width: 14%;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    font-weight: unset;
+}
+.documentContent>.container-fluid>.list .table>tbody>tr>td:nth-child(3){
+    width: 14.5%;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #333333;
+}
+.documentContent>.container-fluid>.list>.table>thead>tr>th:nth-child(4),
+.documentContent>.container-fluid>.thumbnailList>.table>thead>tr>th:nth-child(4){
+    width: 10%;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    font-weight: unset;
+}
+.documentContent>.container-fluid>.list .table>tbody>tr>td:nth-child(4){
+    width: 10%;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #333333;
+}
+.documentContent>.container-fluid>.list>.table>thead>tr>th:nth-child(5),
+.documentContent>.container-fluid>.thumbnailList>.table>thead>tr>th:nth-child(5){
+    width: 20%;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    font-weight: unset;
+}
+.documentContent>.container-fluid>.list .table>tbody>tr>td:nth-child(5){
+    width: 20%;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #999999;
+}
+.documentContent>.container-fluid>.list>.table>thead>tr>th:nth-child(6),
+.documentContent>.container-fluid>.list .table>tbody>tr>td:nth-child(6),
+.documentContent>.container-fluid>.thumbnailList>.table>thead>tr>th:nth-child(6){
+    width: 10%;
+    text-align: center;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    font-weight: unset;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: ellipsis;
+}
+.documentContent>.container-fluid>.list>.table>thead>tr>th:nth-child(6)>img,
+.documentContent>.container-fluid>.list .table>tbody>tr>td:nth-child(6)>img{
+    visibility: hidden;
+    cursor: pointer;
+}
+.documentContent>.container-fluid>.list>.table>thead>tr{
+    background-color: #FAFAFA;
+}
+.documentContent>.container-fluid>.list>.table tr:nth-child(even){
+    background-color: #FAFAFA;
+}
+.documentContent>.container-fluid>.list .table>tbody>tr:hover{
+    background-color: #F2F2F2;
+}
+.documentContent>.container-fluid>.list>.table>thead>tr>th,
+.documentContent>.container-fluid>.list .table>tbody>tr>td{
+    border-top:0px;
+    border-bottom:0px;
+}
+.documentContent>.container-fluid>.list .table>tbody>tr>td>ul{
+    margin-left: -50px;
+    min-width: 104px;
+    box-shadow: none;
+    margin-top: -10px;
+    display: none;
+}
+.documentContent>.container-fluid>.list .table>tbody>tr>td>ul>li{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #333333;
+    padding: 8px 14px;
+    text-decoration: none;
+    display: block;
+    clear: both;
+    font-weight: 300;
+    line-height: 18px;
+    white-space: nowrap;
+    cursor:default;
+}
+.documentContent>.container-fluid>.list .table>tbody>tr>td>ul>li:hover{
+    background-color: #F2F2F2;
+}
+/*缩略图样式*/
+.documentContent>.container-fluid>.thumbnailList{
+    display: none;
+}
+.documentContent>.container-fluid>.thumbnailList>div>div>div>div{
+    text-align: center;
+    padding: 15px 15px 10px 15px;
+    position: relative;
+    border:1px solid #fff;
+    box-shadow: 0 2px 4px 0 rgba(255,255,255,255);
+    border-radius: 3px;
+    margin-bottom: 18px;
+}
+/*.documentContent>.container-fluid>.thumbnailList>div>div>div>div:hover{*/
+/*background: #FFFFFF;*/
+/*border: 1px solid #CCCCCC;*/
+/*box-shadow: 0 2px 4px 0 rgba(0,0,0,0.20);*/
+/*border-radius: 3px;*/
+/*background: url("../img/right1_hover_icon.png") no-repeat;*/
+/*}*/
+.documentContent>.container-fluid>.thumbnailList>div>div>div>div>span>img{
+    width: 60px;
+    height: 67px;
+}
+.thumbnailList-selected{
+    background: #FFFFFF;
+    border: 1px solid #35A6F8!important;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.20)!important;
+    border-radius: 3px;
+    /*background: url("../img/right1_select_icon.png") no-repeat!important;*/
+}
+.documentContent>.container-fluid>.thumbnailList>div>div>div>div>div{
+    padding-top: 26px;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #666666;
+}
+/*.thumbnailList .col-sm-2 .row .thumbnailListSelected .selectedHoverBorder{*/
+/*background: #FFFFFF;*/
+/*border: 1px solid #CCCCCC;*/
+/*box-shadow: 0 2px 4px 0 rgba(0,0,0,0.20);*/
+/*border-radius: 3px;*/
+/*}*/
+
+
+/*.nameCss{*/
+/*display:block;*/
+/*white-space:nowrap;*/
+/*overflow:hidden;*/
+/*text-overflow:ellipsis;*/
+/*}*/
+/*.nameCss:hover{*/
+/*overflow: visible;*/
+/*}*/
+.thumbnailList .col-sm-2 .row .thumbnailListSelected>label{
+    width: 18px;
+    height:18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.thumbnailList .col-sm-2 .row .thumbnailListSelected .selectedHover{
+    /*background: url("../img/right1_hover_icon.png") no-repeat;*/
+    visibility: hidden;
+}
+.thumbnailList .col-sm-2 .row .thumbnailListSelected .selected{
+    /*background: url("../img/right1_select_icon.png") no-repeat!important;*/
+    visibility: visible!important;
+}
+.documentContent .upload{
+    width: auto;
+}
+#uploader-demo{
+    display: inline-block;
+}
+.webuploader-pick {
+    /*background: #00A63C;*/
+    border-radius: 3px;
+    padding: 4.5px 20px;
+    font-size: 12px;
+}
+.btn-default.buttonPositon{
+    padding: 3.5px 13px;
+}
+/*下拉样式*/
+.thumb-more_button{
+    position: absolute;
+    right: 6%;
+    bottom: 6%;
+    visibility: hidden;
+    cursor: pointer;
+}
+.thumbnailList .col-sm-2 .row .thumbnailListSelected>div>span>ul{
+    position: absolute;
+    margin-left: -50px;
+    min-width: 104px;
+    box-shadow: none;
+    margin-top: -10px;
+    font-size: 14px;
+    text-align: left;
+    float: left;
+    list-style: none;
+    text-shadow: none;
+    padding: 0px;
+    background-color: #ffffff;
+    margin: 10px 0px 0px 0px;
+    position: absolute;
+    right: 20px;
+    top: 109px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    z-index: 6;
+    display: none;
+}
+.thumbnailList .col-sm-2 .row .thumbnailListSelected>div>span>ul>li{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #333333;
+    padding: 8px 14px;
+    text-decoration: none;
+    display: block;
+    clear: both;
+    font-weight: 300;
+    line-height: 18px;
+    white-space: nowrap;
+    cursor: default;
+}
+.thumbnailList .col-sm-2 .row .thumbnailListSelected>div>span>ul>li:hover{
+    background-color: #F2F2F2;
+}
+.thumbnailList .col-sm-2 .row .thumbnailListSelected>div>span>ul>li>a{
+    padding: 0px 14px;
+    color: #555;
+    text-decoration: none;
+    display: block;
+    clear: both;
+    font-weight: 300;
+    line-height: 18px;
+    white-space: nowrap;
+}
+.thumbnailList .col-sm-2 .row .thumbnailListSelected>div>span>ul>li>a:hover{
+    /*background: #F7F7F7;*/
+}
+/*缩略图头部*/
+.documentContent>.container-fluid>.thumbnailList>.table>thead>tr{
+    background-color: #FAFAFA;
+}
+.documentContent>.container-fluid>.thumbnailList>.table>thead>tr>th{
+    border-top: 0px;
+    border-bottom: 0px;
+}
+.documentContent>.container-fluid>.thumbnailList>.table{
+    margin-bottom: 0px!important;
+}
+/*加载更多按钮*/
+.div-more,
+.more-div{
+    color: #fff;
+    margin-bottom: 20px;
+    background-color: #188ae2;
+    margin-top: 10px;
+    border: none;
+}
+.div-more:active,
+.more-div:active,
+.div-more:focus,
+.more-div:focus,
+.div-more:hover,
+.more-div:hover{
+    color: #fff!important;
+    background-color: #66AEE6!important;
+}
+/*内滚动高度*/
+.thumbnailListH{
+    overflow-y: auto;
+}
+.modal-footer{
+    width: 100%;
+}
+.buttonDisable{
+    background-color: #ffffff!important;
+    color:#9b9b9b!important;
+    border: 1px solid #dddddd!important;
+}
+.DisableCurson{
+    cursor: no-drop;
+}
+
+/*左侧树形菜单*/
+.ztree li a.curSelectedNode {
+    /*color: #00A63C !important;*/
+    background-color: #efefef!important;
+    border: none !important;
+    text-decoration: none !important;
+    color: #666666!important;
+}
+/*.left-menu .list-group-item:hover,*/
+/*.left-menu .list-group-item:focus {*/
+    /*background: none !important;*/
+/*}*/
+.left-menu .list-group-item{
+    border: 0;
+    font-size: 14px;
+    color: #333333;
+}
+.left-menu .left-menu-content .list-group>.list-group-item{
+    cursor: pointer;
+}
+.left-menu .left-menu-content .list-group>.list-group-item.curr,
+.left-menu .list-group-item ul>li>a.inner-curr{
+    /*color: #00A63C;*/
+    position: relative;
+    padding: 0;
+}
+.left-menu .list-group-item ul>li>a{
+    color: #666666;
+    padding-right: 0;
+    /*background: #fff;*/
+    text-decoration: none!important;
+    /*margin-left: 15px;*/
+}
+.left-menu .dropdown > .dropdown-menu{
+    width: 100%;
+    border: 0;
+    box-shadow: none;
+    padding-left: 0px!important;
+    position: relative;
+    display: block;
+    /*z-index: -99;*/
+}
+.left-menu .list-group-item:hover,
+.left-menu .list-group-item:focus{
+    background: none!important;
+}
+.left-menu .left-menu-content .list-group>.list-group-item img{
+    margin-right: 10px;
+}
+.left-menu .left-menu-content .list-group>.list-group-item .operateSpan{
+    position: absolute;
+    right: 10px;
+}
+.left-menu .left-menu-content{
+    /*margin-top: 5px;*/
+    margin: 0;
+}
+.left-menu .dropdown > .dropdown-menu>li{
+    position: relative;
+}
+.left-menu .dropdown > .dropdown-menu>li>img{
+    position: absolute;
+    /* right: 1%; */
+    /* bottom: 14%; */
+    top: 7px;
+}
+.dropdown-menu li > a:hover,
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover{
+    background: #F7F7F7;
+}
+.dropdown-menu li > a{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#edit>li>ul{
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.20);
+    border-radius: 3px;
+    width: 62%;
+    position: absolute;
+    right: 10%;
+    top: 90%;
+    z-index: 9999;
+    list-style: none;
+    padding-left: 0px;
+    display: none;
+}
+#edit>li>ul>li{
+    padding: 8px 70px 10px 16px;
+}
+#edit>li>img{
+    visibility: hidden;
+}
+#edit>li>ul>li:hover{
+    background:#F7F7F7;
+}
+#edit>li>ul>li>a{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #333333;
+    padding: 0px;
+    font-weight: unset;
+    word-spacing: unset;
+}
+.dropdown-menu {
+    min-width: 100px;
+}
+.list-group-item {
+    padding-right: 0;
+}
+.ztree li a.curSelectedNode {
+    /*color: #00A63C !important;*/
+    background: #fff;
+    border: none !important;
+    text-decoration: none !important;
+    padding-left: 3px!important;
+}
+.doc_left.ztree{
+    overflow-y:auto;
+}
+.left-menu .list-group #dropdownMenu1{
+    /*position: relative;*/
+    width: 100%;
+}
+.left-menu>.container>.left-menu-content .operateSpan{
+    position: absolute;
+}
+/*下拉样式*/
+.droplistProject{
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.20);
+    border-radius: 3px;
+    width: 44%;
+    position: absolute;
+    left: 80px;
+    top: 40px;
+    z-index: 9999;
+    list-style: none;
+    padding-left: 0px;
+    display: none;
+    padding: 0% 0% 0% 0% !important;
+}
+.droplistProject>li{
+    padding: 8px 0px 10px 16px;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #333333;
+    /*padding: 0px;*/
+    font-weight: unset;
+    word-spacing: unset;
+}
+.droplistProject>li:hover{
+    background:#F7F7F7;
+}
+.dropmenuStyle {
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.20);
+    border-radius: 3px;
+    z-index: 9999;
+    position: absolute;
+    /*width: 50%;*/
+    width: 89.33px;
+    top: 20px;
+    /*left: 18%;*/
+    right: 44px;
+    padding: 0px 0 0px 0 !important;
+}
+
+.dropmenuStyle > li {
+    list-style: none;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #333333;
+    padding: 3px 6px !important;
+}
+
+.dropmenuStyle > li:hover,
+.dropmenuStyle > li>a:hover{
+    background-color: #fafafa!important;
+}
+.dropmenuStyle > li>a{
+    width: 70px;
+}
+#filetreeMenu li{
+    /*width: 200px;*/
+}
+
+.modal > div { /* 追加此行 */
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-dialog {
+    /* 略去展示原有内容，此处只显示追加内容 */
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.modal-content {
+    /* 略去展示原有内容，此处只显示追加内容 */
+    display: block;
+    max-width: 580px;
+    margin: 0 auto;
+}
+
+.modal .modal-title {
+    font-size: 16px;
+    color: #333;
+}
+
+.modal .modal-header .close {
+    margin-top: 5px !important;
+    height: 12px;
+    width: 12px;
+}
+
+.modal .modal-header {
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.modal-body {
+    padding: 30px;
+    padding-bottom: 0;
+}
+
+.modal-footer {
+    padding: 0 30px 30px 30px;
+    border: 0;
+}
+
+.modal-footer .btn {
+    width: 100px;
+    padding: 9px 14px;
+}
+
+.modal-footer .btn-success {
+    background: #00A63C !important;
+    border-radius: 3px;
+}
+
+.modal-footer .btn-success:hover {
+    background: #66C98A !important;
+}
+
+.modal-footer .btn-default {
+    margin-left: 24px;
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+}
+.thumbnail .info{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    color: #333333;
+}
+.typeImg{
+    width: 20px;
+}
+.dropdown-menu li > a{
+    padding: 0px 14px!important;
+}
+.dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover {
+    background: unset!important;
+}
+.dropdown-menu li:hover{
+    background: #F2F2F2;
+}
+.search_img,.delete_img{
+    position: absolute;
+    top: 8px;
+    right: 5%;
+    z-index: 99;
+    cursor: pointer;
+}
+.delete_img{
+    display: none;
+}
+.dropdown-menu{
+    border: 1px solid #eee;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+/*<!--##新增文件夹模态框-->*/
+.documentContent-addFile>.modal-header>.container-fluid>.row .modal-title{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #333333;
+}
+.documentContent-addFile>.modal-body>.container-fluid>.row{
+    margin-top: 20px;
+}
+.documentContent-addFile>.modal-body>.container-fluid>.row2{
+    margin-bottom: 40px;
+}
+.documentContent-addFile>.modal-body>.container-fluid>.row>div{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+}
+.documentContent-addFile>.modal-body>.container-fluid>.row>div input{
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+}
+.documentContent-addFile>.modal-body>.container-fluid>.row>.col-sm-8{
+    padding: 0px;
+}
+.documentContent-addFile>.modal-body>.container-fluid>.row>div div{
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+    background: #F8F8F8;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+.documentContent-addFile>.modal-body>.container-fluid>.row>div div>span{
+    position: absolute;
+    right: 4%;
+    top:50%
+}
+.documentContent-addFile>.modal-body>.container-fluid>.row>div ul{
+    list-style: none;
+    padding-left: 0px;
+    /*border: 1px solid #E6E6E6;*/
+    border-radius: 3px;
+    /* display: none; */
+}
+.documentContent-addFile>.modal-body> .container-fluid > .row > div .ztree {
+    z-index: 999;
+    position: absolute;
+    max-width: 385.33px;
+    background: #fff;
+    border: 1px solid #E6E6E6;
+}
+.documentContent-addFile>.modal-body>.container-fluid>.row>div ul li{
+    padding: 10px 0px 10px 15px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    cursor: default;
+}
+.input-tips{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #E1504A;
+    font-weight: normal;
+    display: none;
+    margin-bottom: 0px;
+}
+.documentContent-addFile>.modal-body>.container-fluid>.row>div ul li:hover{
+    background: #F8F8F8;
+}
+.documentContent-addFile>.modal-footer>.container-fluid>.row>div{
+    padding-right: 0px;
+}
+.documentContent-addFile>.modal-footer>.container-fluid>.row button{
+    width: 100%;
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.confirm{
+    background: #00A63C;
+    color: #FFFFFF;
+}
+.cancel{
+    color: #999999;
+}
+/*<!--##权限模态框-->*/
+/*.documentContent-addLimit>.modal-header .modal-title{*/
+/*font-family: PingFangSC-Regular;*/
+/*font-size: 16px;*/
+/*color: #333333;*/
+/*}*/
+.nameCss{
+    display:block;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    width:80%;
+    margin: 0 auto;
+}
+.my_nameCss{
+    display:block;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    width:100px;
+}
+.my_nameCss:hover{
+    overflow: visible;
+}
+.modal-body {
+    padding: 0px !important;
+}
+.documentContent-addLimit >.modal-body .container-fluid > .header {
+    margin-right: 0px;
+    line-height: 31px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.documentContent-addLimit >.modal-body .container-fluid > .header > div {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #666666;
+}
+.documentContent-addLimit >.modal-body .container-fluid > .header > button {
+    border: 1px solid #00A63C;
+    border-radius: 3px;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #00A63C;
+}
+.documentContent-addLimit >.modal-body .container-fluid .content {
+    border: 1px solid #E6E6E6;
+    min-height: 290px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+.documentContent-addLimit >.modal-body .container-fluid .content > div {
+    /*border: 1px solid #E6E6E6;*/
+    /*min-height: 288px;*/
+    padding: 0px;
+}
+.documentContent-addLimit >.modal-body .container-fluid .content table > thead tr:nth-child(odd) {
+    background: #FAFAFA;
+}
+.documentContent-addLimit >.modal-body .container-fluid .content table > tbody tr:nth-child(even) {
+    background: #FAFAFA;
+}
+.documentContent-addLimit >.modal-body .container-fluid .content table tr {
+    height: 15%;
+}
+.documentContent-addLimit >.modal-body .container-fluid .content table > thead th:nth-child(1),
+.documentContent-addLimit >.modal-body .container-fluid .content table > thead th:nth-child(2) {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #666666;
+}
+.documentContent-addLimit >.modal-body .container-fluid .content table > thead th:nth-child(3),
+.documentContent-addLimit >.modal-body .container-fluid .content table > thead th:nth-child(4),
+.documentContent-addLimit >.modal-body .container-fluid .content table > thead th:nth-child(5),
+.documentContent-addLimit >.modal-body .container-fluid .content table > thead th:nth-child(6),
+.documentContent-addLimit >.modal-body .container-fluid .content table > thead th:nth-child(7),
+.documentContent-addLimit >.modal-body .container-fluid .content table > thead th:nth-child(8) {
+    font-family: PingFangSC-Regular;
+    font-size: 10px;
+    color: #666666;
+}
+.documentContent-addLimit >.modal-body .container-fluid .content table > thead th {
+    border-top: 0px;
+    border-bottom: 0px;
+}
+.documentContent-addLimit>.modal-body .content table>tbody>tr,
+.documentContent-addLimit>.modal-body .content table>tbody>tr td{
+    height: 40px;
+}
+.documentContent-addLimit >.modal-body .container-fluid .content table > tbody td {
+    border-top: 0px;
+}
+.documentContent-addLimit >.modal-body .container-fluid .content table > tbody td:nth-child(1),
+.documentContent-addLimit >.modal-body .container-fluid .content table > tbody td:nth-child(2) {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #333333;
+}
+.documentContent-addLimit >.modal-body .container-fluid .content table > tbody td:nth-child(3),
+.documentContent-addLimit >.modal-body .container-fluid .content table > tbody td:nth-child(4),
+.documentContent-addLimit >.modal-body .container-fluid .content table > tbody td:nth-child(5),
+.documentContent-addLimit >.modal-body .container-fluid .content table > tbody td:nth-child(6),
+.documentContent-addLimit >.modal-body .container-fluid .content table > tbody td:nth-child(7),
+.documentContent-addLimit >.modal-body .container-fluid .content table > tbody td:nth-child(8) {
+    font-family: PingFangSC-Regular;
+    font-size: 10px;
+    color: #666666;
+}
+.documentContent-addLimit >.modal-body .container-fluid .content table > tbody tr:hover {
+    background: #F2F2F2;
+}
+.documentContent-addLimit >.modal-footer .container-fluid > .footer {
+    margin-top: 14px;
+    border-top: 0px solid;
+}
+.documentContent-addLimit >.modal-footer .container-fluid > .footer div {
+    text-align: left;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #999999;
+}
+.documentContent-addLimit >.modal-footer .container-fluid > .footer button {
+    width: 100%;
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.documentContent-addLimit >.modal-footer .container-fluid > .footer > div > .confirm {
+    background: #00A63C;
+    color: #FFFFFF;
+}
+.documentContent-addLimit >.modal-footer .container-fluid > .footer > div > .cancel {
+    color: #999999;
+}
+#limit {
+    cursor: default;
+}
+.documentContent-addLimit >.modal-body .container-fluid .content .toolTips {
+    width: 46%;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.20);
+    z-index: 2;
+    position: absolute;
+    top: -13px;
+    right: 130px;
+    display: none;
+}
+.documentContent-addLimit >.modal-body .container-fluid .content .toolTips > div {
+    padding: 1% 4%;
+}
+.documentContent-addLimit >.modal-body .container-fluid .content .toolTips > div .toolTipsLeft {
+    font-family: PingFangSC-Medium;
+    font-size: 10px;
+    color: #151515;
+    line-height: 18px;
+}
+.documentContent-addLimit >.modal-body .container-fluid .content .toolTips > div .toolTipsRight {
+    font-family: PingFangSC-Regular;
+    font-size: 10px;
+    color: #2A2A2A;
+    line-height: 18px;
+    font-weight: normal;
+}
+.documentContent-addLimit >.modal-body .container-fluid .content .toolTips > div .toolTipsFooter {
+    font-family: PingFangSC-Regular;
+    font-size: 10px;
+    /*color: #002000;*/
+    color: #E1504A;
+    line-height: 18px;
+}
+.documentContent-addLimit >.modal-body .container-fluid .content .toolTips > hr {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+.documentContent-addLimit >.modal-body .container-fluid .content .toolTips > div > div:nth-child(1) {
+    float: left;
+}
+.documentContent-addLimit >.modal-body .container-fluid .content .toolTips > div > div:nth-child(2) {
+    margin-left: 8%;
+    font-family: PingFangSC-Regular;
+    font-size: 10px;
+    color: #333333;
+}
+/*脚步按钮*/
+.documentContent-addLimit .modal-footer{
+    width: 100%!important;
+    padding: 0 0 30px 0!important;
+}
+/*limitSet*/
+.documentContent-limitSet {
+    display: none;
+}
+.documentContent-limitSet >.modal-body .container-fluid > .header {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    line-height: 31px;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #666666;
+}
+.documentContent-limitSet >.modal-body .container-fluid .left .header > div > input {
+    background: #F2F2F2;
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #666666;
+    padding: 6px 1px 6px 15px;
+}
+.documentContent-limitSet >.modal-body .container-fluid > .row > button {
+    border: 1px solid #00A63C;
+    border-radius: 3px;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #00A63C;
+    width: 70px;
+    margin-right: 15px;
+}
+.documentContent-limitSet >.modal-body .container-fluid > .row:nth-child(2) {
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+    width: 100%;
+    margin: 0 auto;
+}
+.documentContent-limitSet >.modal-body .container-fluid .left > .header > div > input {
+    width: 100%;
+}
+.active {
+    color: #00A63C !important;
+}
+.left {
+    margin-top: 15px;
+}
+.documentContent-limitSet >.modal-body .container-fluid .left .headerContent {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #666666;
+    text-align: center;
+    border-bottom: 1px solid #E6E6E6;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 11px;
+    padding-bottom: 7px;
+    margin-bottom: 8px;
+    overflow-y: auto;
+}
+.documentContent-limitSet >.modal-body .container-fluid .left .headerContent > div {
+    cursor: pointer;
+}
+.documentContent-limitSet >.modal-body .container-fluid .left .headerFirst {
+    border-left: 1px solid #E6E6E6;;
+}
+.documentContent-limitSet >.modal-body .container-fluid .content {
+    margin-top: 6px;
+}
+.documentContent-limitSet >.modal-body .container-fluid .content > div {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #666666;
+    line-height: 21px;
+}
+.documentContent-limitSet >.modal-body .container-fluid > .row > div > .borderStyle {
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 220px;
+}
+.documentContent-limitSet >.modal-body .container-fluid > .row > div > .borderStyle > .headerContent {
+    height: 12%;
+}
+.documentContent-limitSet >.modal-body .container-fluid > .row > div > .borderStyle > .sector,
+.documentContent-limitSet >.modal-body .container-fluid > .row > div > .borderStyle > .user {
+    height: 80%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.documentContent-limitSet >.modal-body .container-fluid > .row > .center {
+    padding-left: 6px;
+    margin-top: 148px;
+}
+.right {
+    margin-top: 15px;
+}
+.documentContent-limitSet >.modal-body .container-fluid > .row > .right > .header {
+    height: 31px;
+    line-height: 31px;
+}
+.documentContent-limitSet >.modal-body .container-fluid > .row > .right > .header > div {
+    padding-right: 0px;
+    padding-left: 8px;
+    width: 16%;
+}
+.documentContent-limitSet >.modal-body .container-fluid > .row > .right > .header > div > span {
+    font-family: PingFangSC-Regular;
+    font-size: 10px;
+    color: #666666;
+}
+.borderWidth {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.documentContent-limitSet >.modal-body .container-fluid > .row > .right .contentHeader {
+    margin: 0px -5px;
+    background: #FAFAFA;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #999999;
+    padding: 7px 0px 9px 0px;
+}
+.documentContent-limitSet >.modal-body .container-fluid > .row > .right .right-content {
+    height: 81%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.documentContent-limitSet >.modal-body .container-fluid > .row > .right .contentCenter {
+    margin: 0px -5px;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #666666;
+    padding: 7px 0px 4px 0px;
+    display: none;
+}
+/*脚步按钮*/
+.documentContent-limitSet .modal-footer{
+    width: 100%!important;
+    padding: 0 20px 30px 30px!important;
+}
+.documentContent-limitSet .footer {
+    margin-top: 14px;
+    border-top: 0px solid;
+}
+.documentContent-limitSet .footer button {
+    width: 100%;
+    background: #00A63C;
+    border-radius: 3px;
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.user {
+    display: none;
+}
+/*<!--##文件夹改名模态框-->*/
+.documentContent-changeFolder>.modal-header>.container-fluid>.row .modal-title{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #333333;
+}
+.documentContent-changeFolder>.modal-body>.container-fluid>.row{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.documentContent-changeFolder>.modal-body>.container-fluid>.row>div{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+}
+.documentContent-changeFolder>.modal-body>.container-fluid>.row>div input{
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+}
+.documentContent-changeFolder>.modal-body>.container-fluid>.row>.col-sm-8{
+    padding: 0px;
+}
+.documentContent-changeFolder>.modal-body>.container-fluid>.row>div div{
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+    background: #F8F8F8;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+.documentContent-changeFolder>.modal-body>.container-fluid>.row>div div>span{
+    position: absolute;
+    right: 4%;
+    top:50%
+}
+.documentContent-changeFolder>.modal-footer>.container-fluid>.row>div{
+    padding-right: 0px;
+}
+.documentContent-changeFolder>.modal-footer>.container-fluid>.row button{
+    width: 100%;
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.confirm{
+    background: #00A63C;
+    color: #FFFFFF;
+}
+.cancel{
+    color: #999999;
+}
+.input-tips{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #E1504A;
+    font-weight: normal;
+    display: none;
+    margin-bottom: 0px;
+}
+/*<!--##文件移动模态框-->*/
+.documentContent-moveFile>.modal-header>.container-fluid>.row .modal-title{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #333333;
+}
+.documentContent-moveFile>.modal-body>.container-fluid>.row{
+    margin-top: 20px;
+}
+.documentContent-moveFile>.modal-body>.container-fluid>.row2{
+    margin-bottom: 40px;
+}
+.documentContent-moveFile>.modal-body>.container-fluid>.row>div{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+}
+.documentContent-moveFile>.modal-body>.container-fluid>.row>div input{
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+}
+.documentContent-moveFile>.modal-body>.container-fluid>.row>.col-sm-8{
+    padding: 0px;
+}
+.documentContent-moveFile>.modal-body>.container-fluid>.row>div div{
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+    background: #F8F8F8;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+.documentContent-moveFile>.modal-body>.container-fluid>.row>div div>span{
+    position: absolute;
+    right: 4%;
+    top:50%
+}
+.documentContent-moveFile>.modal-body>.container-fluid>.row>div ul{
+    list-style: none;
+    padding-left: 0px;
+    /*border: 1px solid #E6E6E6;*/
+    border-radius: 3px;
+    display: none;
+}
+.documentContent-moveFile>.modal-body> .container-fluid > .row > div .ztree {
+    z-index: 999;
+    position: absolute;
+    max-width: 385.33px;
+    background: #fff;
+    border: 1px solid #E6E6E6;
+}
+.documentContent-moveFile>.modal-body>.container-fluid>.row>div ul li{
+    padding: 10px 0px 10px 15px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    cursor: default;
+}
+.input-tips{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #E1504A;
+    font-weight: normal;
+    display: none;
+    margin-bottom: 0px;
+}
+.documentContent-moveFile>.modal-body>.container-fluid>.row>div ul li:hover{
+    background: #F8F8F8;
+}
+.documentContent-moveFile>.modal-footer>.container-fluid>.row>div{
+    padding-right: 0px;
+}
+.documentContent-moveFile>.modal-footer>.container-fluid>.row button{
+    width: 100%;
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.confirm{
+    background: #00A63C;
+    color: #FFFFFF;
+}
+.cancel{
+    color: #999999;
+}
+/*<!--##文件改名模态框-->*/
+.documentContent-changeFile>.modal-header>.container-fluid>.row .modal-title{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #333333;
+}
+.documentContent-changeFile>.modal-body>.container-fluid>.row{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.documentContent-changeFile>.modal-body>.container-fluid>.row>div{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+}
+.documentContent-changeFile>.modal-body>.container-fluid>.row>div input{
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+}
+.documentContent-changeFile>.modal-body>.container-fluid>.row>.col-sm-8{
+    padding: 0px;
+}
+.documentContent-changeFile>.modal-body>.container-fluid>.row>div div{
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+    background: #F8F8F8;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+.documentContent-changeFile>.modal-body>.container-fluid>.row>div div>span{
+    position: absolute;
+    right: 4%;
+    top:50%
+}
+.documentContent-changeFile>.modal-footer>.container-fluid>.row>div{
+    padding-right: 0px;
+}
+.documentContent-changeFile>.modal-footer>.container-fluid>.row button{
+    width: 100%;
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.confirm{
+    background: #00A63C;
+    color: #FFFFFF;
+}
+.cancel{
+    color: #999999;
+}
+.input-tips{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #E1504A;
+    font-weight: normal;
+    display: none;
+    margin-bottom: 0px;
+}
+/*<!--##头部文件移动模态框-->*/
+.documentContent-topmoveFile>.modal-header>.container-fluid>.row .modal-title{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #333333;
+}
+.documentContent-topmoveFile>.modal-body>.container-fluid>.row{
+    margin-top: 20px;
+}
+.documentContent-topmoveFile>.modal-body>.container-fluid>.row2{
+    margin-bottom: 40px;
+}
+.documentContent-topmoveFile>.modal-body>.container-fluid>.row>div{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+}
+.documentContent-topmoveFile>.modal-body>.container-fluid>.row>div input{
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+}
+.documentContent-topmoveFile>.modal-body>.container-fluid>.row>.col-sm-8{
+    padding: 0px;
+}
+.documentContent-topmoveFile>.modal-body>.container-fluid>.row>div div{
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+    background: #F8F8F8;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+.documentContent-topmoveFile>.modal-body>.container-fluid>.row>div div>span{
+    position: absolute;
+    right: 4%;
+    top:50%
+}
+.documentContent-topmoveFile>.modal-body>.container-fluid>.row>div ul{
+    list-style: none;
+    padding-left: 0px;
+    /*border: 1px solid #E6E6E6;*/
+    border-radius: 3px;
+    display: none;
+}
+.documentContent-topmoveFile>.modal-body> .container-fluid > .row > div .ztree {
+    z-index: 999;
+    position: absolute;
+    max-width: 385.33px;
+    background: #fff;
+    border: 1px solid #E6E6E6;
+}
+.documentContent-topmoveFile>.modal-body>.container-fluid>.row>div ul li{
+    padding: 10px 0px 10px 15px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    cursor: default;
+}
+.input-tips{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #E1504A;
+    font-weight: normal;
+    display: none;
+    margin-bottom: 0px;
+}
+.documentContent-topmoveFile>.modal-body>.container-fluid>.row>div ul li:hover{
+    background: #F8F8F8;
+}
+.documentContent-topmoveFile>.modal-footer>.container-fluid>.row>div{
+    padding-right: 0px;
+}
+.documentContent-topmoveFile>.modal-footer>.container-fluid>.row button{
+    width: 100%;
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.confirm{
+    background: #00A63C;
+    color: #FFFFFF;
+}
+.cancel{
+    color: #999999;
+}
+/*弹框*/
+.documentContent-addFile>.modal-header>.container-fluid>.row .modal-title{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #333333;
+}
+.documentContent-addFile>.modal-body>.container-fluid>.row{
+    margin-top: 20px;
+}
+.documentContent-addFile>.modal-body>.container-fluid>.row2{
+    margin-bottom: 40px;
+}
+.documentContent-addFile>.modal-body>.container-fluid>.row>div{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+}
+.documentContent-addFile>.modal-body>.container-fluid>.row>div input{
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+}
+.documentContent-addFile>.modal-body>.container-fluid>.row>.col-sm-8{
+    padding: 0px;
+}
+.documentContent-addFile>.modal-body>.container-fluid>.row>div div{
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+    background: #F8F8F8;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+.documentContent-addFile>.modal-body>.container-fluid>.row>div div>span{
+    position: absolute;
+    right: 4%;
+    top:50%
+}
+.documentContent-addFile>.modal-body>.container-fluid>.row>div ul{
+    list-style: none;
+    padding-left: 0px;
+    /*border: 1px solid #E6E6E6;*/
+    border-radius: 3px;
+    /* display: none; */
+}
+.documentContent-addFile>.modal-body> .container-fluid > .row > div .ztree {
+    z-index: 999;
+    position: absolute;
+    max-width: 385.33px;
+    background: #fff;
+    border: 1px solid #E6E6E6;
+}
+.documentContent-addFile>.modal-body>.container-fluid>.row>div ul li{
+    padding: 10px 0px 10px 15px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    cursor: default;
+}
+.input-tips{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #E1504A;
+    font-weight: normal;
+    display: none;
+    margin-bottom: 0px;
+}
+.documentContent-addFile>.modal-body>.container-fluid>.row>div ul li:hover{
+    background: #F8F8F8;
+}
+.documentContent-addFile>.modal-footer>.container-fluid>.row>div{
+    padding-right: 0px;
+}
+.documentContent-addFile>.modal-footer>.container-fluid>.row button{
+    width: 100%;
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.confirm{
+    background: #00A63C;
+    color: #FFFFFF;
+}
+.cancel{
+    color: #999999;
+}
+/**/
+.documentContent-changeFolder>.modal-header>.container-fluid>.row .modal-title{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #333333;
+}
+.documentContent-changeFolder>.modal-body>.container-fluid>.row{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.documentContent-changeFolder>.modal-body>.container-fluid>.row>div{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+}
+.documentContent-changeFolder>.modal-body>.container-fluid>.row>div input{
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+}
+.documentContent-changeFolder>.modal-body>.container-fluid>.row>.col-sm-8{
+    padding: 0px;
+}
+.documentContent-changeFolder>.modal-body>.container-fluid>.row>div div{
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+    background: #F8F8F8;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+.documentContent-changeFolder>.modal-body>.container-fluid>.row>div div>span{
+    position: absolute;
+    right: 4%;
+    top:50%
+}
+.documentContent-changeFolder>.modal-footer>.container-fluid>.row>div{
+    padding-right: 0px;
+}
+.documentContent-changeFolder>.modal-footer>.container-fluid>.row button{
+    width: 100%;
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.confirm{
+    background: #00A63C;
+    color: #FFFFFF;
+}
+.cancel{
+    color: #999999;
+}
+.input-tips{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #E1504A;
+    font-weight: normal;
+    display: none;
+    margin-bottom: 0px;
+}
+/**/
+.documentContent-changeFile>.modal-header>.container-fluid>.row .modal-title{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #333333;
+}
+.documentContent-changeFile>.modal-body>.container-fluid>.row{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.documentContent-changeFile>.modal-body>.container-fluid>.row>div{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+}
+.documentContent-changeFile>.modal-body>.container-fluid>.row>div input{
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+}
+.documentContent-changeFile>.modal-body>.container-fluid>.row>.col-sm-8{
+    padding: 0px;
+}
+.documentContent-changeFile>.modal-body>.container-fluid>.row>div div{
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+    background: #F8F8F8;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+.documentContent-changeFile>.modal-body>.container-fluid>.row>div div>span{
+    position: absolute;
+    right: 4%;
+    top:50%
+}
+.documentContent-changeFile>.modal-footer>.container-fluid>.row>div{
+    padding-right: 0px;
+}
+.documentContent-changeFile>.modal-footer>.container-fluid>.row button{
+    width: 100%;
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.confirm{
+    background: #00A63C;
+    color: #FFFFFF;
+}
+.cancel{
+    color: #999999;
+}
+.input-tips{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #E1504A;
+    font-weight: normal;
+    display: none;
+    margin-bottom: 0px;
+}
+
+.btn:active,
+.btn:hover{
+    box-shadow:unset;
+    /*color: #333!important;*/
+}
+.container-fluid .layout-sm3{
+    /*border-right: 1px solid #E6E6E6;*/
+    background: #fff;
+    padding-right: 6px;
+}
+.ztree.fileZtree{
+    background: #fff!important;
+    /*height: 100%!important;*/
+    /*overflow-y: inherit!important;*/
+    /*max-height: 80vh;*/
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding-right: 0px;
+    box-shadow: none;
+}
+#myfielTable{
+    /*border-left: 1px solid #E6E6E6;*/
+}
+.page-content {
+    border-left: 1px solid #E6E6E6;
+}
+.layout-sm9{
+    padding-left: 0!important;
+}
+.el-upload-list--text{
+    position: fixed;
+    bottom: 0px;
+    right: 39px;
+    width: 500px;
+    background: #fff;
+    z-index: 999;
+    border: 1px solid #E6E6E6;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.20);
+    border-radius: 3px;
+    padding-left: 5px;
+    /*padding-bottom: 10px;*/
+}
+.upload-demo{
+    display: inline-block;
+}
+.el-checkbox__label{
+    display: none; 
+}
+.list-group{
+    margin: 0;
+}
+.view-main{
+    margin-bottom: 10px;
+}
+.el-button.el-button--primary{
+    border: none;
+}
+label.el-checkbox{
+    margin: 0;
+}

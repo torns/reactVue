@@ -1,0 +1,120 @@
+.widget-header .row>.col-xs-2 {
+    padding-right: 0;
+}
+.widget-header select,
+.widget-header input{
+    padding-left: 5px;
+    color: #999;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+}
+.time-input {
+    border-radius: 4px;
+    height: 34px;
+    border: 1px solid #ccc;
+}
+.position-btn {
+    position: absolute;
+    right: 10px;
+}
+.text-bgcolor{
+    background-color: #f57c70;
+    color: #f5f5d5;
+}
+.position-span{
+    position: absolute;
+}
+.top-0{
+    top:0;
+}
+.bottom-0{
+    bottom: 0;
+}
+.right-rem{
+    right: 0.75rem;
+}
+.font-color{
+    color:#188AE2;
+}
+.b-color{
+    color: #009DFF!important;
+}
+.margin-left{
+    margin-left: 0.75rem;
+}
+.margin-top{
+    margin-top: 1rem;
+}
+.font-size12{
+    font-size: 12px;
+}
+.pre-color{
+    color: rgba(0, 0, 0, 0.647058823529412);
+}
+.last-color{
+    font-family: 'PingFang SC Regular', 'PingFang SC';
+    color: rgba(0, 0, 0, 0.427450980392157);
+}
+.footer-edit{
+    background-color: rgba(247, 249, 250, 1);
+    color: rgba(0, 0, 0, 0.427450980392157);
+    margin-top: 0.5rem;
+}
+.list-content{
+    padding: 20px;
+}
+.list-content>.widget{
+    padding: 1.5rem 0.75rem;
+}
+.footer-edit .text-center div{
+    padding: 4px 0;
+}
+.footer-edit .text-center div:nth-child(1) div{
+    border-right: 1px solid rgba(233, 233, 233, 1);
+}
+.list-content .col-md-4>.row{
+    margin: 0;
+}
+.list-content .col-md-4{
+    padding-bottom: 1.5rem;
+}
+.one-announce{
+    height: 175px;
+    background: linear-gradient(90deg, rgba(24, 138, 226, 1) 0%, rgba(24, 138, 226, 1) 0%, rgba(105, 227, 228, 1) 100%, rgba(105, 227, 228, 1) 100%);
+}
+.avatar-sm{
+    height: 30px;
+    width: 30px;
+}
+.el-input__inner{
+    height: 30px;
+}
+/*height*/
+.list-content{
+    overflow: scroll;
+}
+.list-content>.row:nth-child(1){
+    height: 688px;
+}
+.over-title{
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    width: 80px;
+}
+/*.pages {
+    position: fixed;
+    bottom: 40px;
+    width: 100%;
+}*/
+.bg-p{
+    background: linear-gradient(90deg, rgba(24, 138, 226, 1) 0%, rgba(24, 138, 226, 1) 0%, rgba(105, 227, 228, 1) 100%, rgba(105, 227, 228, 1) 100%);
+}
+.list-header .col-md-12{
+    margin-left: 0.75rem;
+    width: 98%;
+}

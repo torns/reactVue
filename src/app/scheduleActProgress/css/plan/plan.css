@@ -1,0 +1,27 @@
+.md8-left{
+    background: #fff;
+    width: 100%;
+    height: 424px;
+    box-shadow: 0 1px 2px #ccc;
+}
+.space-frame .widget-body{
+    height:374px;
+}
+.widget-separator {
+    margin: 0;
+}
+.md4-right .right-title{
+    font-family: '微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
+    font-weight: 700;
+    font-style: normal;
+    color: #999999;
+}
+/*plan css*/
+.col-md-12 .widget{
+    height: 500px;
+}
+.col-md-12 .widget .widget-body,
+.col-md-12 .widget .widget-body>div,
+.col-md-12 .widget .widget-body iframe{
+    height: 100%;
+}

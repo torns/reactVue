@@ -1,0 +1,107 @@
+.time-input {
+    border-radius: 4px;
+    height: 32px;
+    border: 1px solid #ccc;
+}
+.dateTime{
+    height: 64px;
+}
+.dateTime .col-xs-1{
+    padding: 0;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+}
+.dateTime .col-xs-12{
+    line-height: 32px;
+    padding: 0;
+}
+.btn-group button:active,
+.btn-group button:focus,
+.btn-group button:hover{
+    color: #1576c2!important;
+     background-color: #FfFfFf!important;
+    border-color: #1576c2!important;
+    box-shadow: unset!important;
+}
+.btn-group button{
+    padding: 5px 11px!important;
+}
+.mail-item{
+    margin-bottom: 0;
+    padding: 16px 16px 0 16px!important;
+    border-radius: 0!important;
+    box-shadow: unset!important;
+}
+.widget .widget-separator{
+    margin: 0 0 0 0!important;
+}
+.mail-item .widget-separator,
+.tabel-header .widget-separator{
+    margin: 16px 0 0 0!important;
+}
+.tabel-header{
+    width: 100%;
+    min-width: 100%;
+    background: #fff;
+    padding: 16px 16px 0 16px!important;
+}
+.btn-group{
+    height: 64px;
+}
+.size-pie{
+    width: 50%;
+    height: 332px;
+}
+.size-pie .legend>div,
+.size-pie table{
+    right: -80px!important;
+}
+.mail-item-header{
+    font-family: 'PingFang SC Bold', 'PingFang SC';
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.847058823529);
+}
+.mail-item-excerpt{
+    font-family: 'PingFang SC Regular', 'PingFang SC';
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.447058823529);
+}
+.legendLabel{
+    padding-left: 10px;
+}
+/*选择关联元素*/
+.related-center >.modal-body{
+    padding: 0;
+}
+.related-center >.modal-body div > .borderStyle {
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+    padding:0;
+    margin-bottom: 15px;
+    height: 220px;
+}
+.related-center .col-sm-1 img{
+    margin-top: 95px;
+    cursor: pointer;
+}
+
+.related-center >.modal-body  .right .contentHeader {
+    margin: 0px;
+    background: #FAFAFA;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #999999;
+    padding: 7px 0px 9px 0px;
+}
+
+.related-center >.modal-body  .right .right-content {
+    padding: 10px;
+    height: 81%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.related-center >.modal-body .right .contentCenter{
+    padding: 5px 0;
+}

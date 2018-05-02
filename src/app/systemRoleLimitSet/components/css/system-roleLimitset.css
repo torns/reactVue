@@ -1,0 +1,48 @@
+.role-header{
+    font-family: 'Microsoft Tai Le Negreta', 'Microsoft Tai Le Normal', 'Microsoft Tai Le';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.847058823529412);
+    text-align: left;
+    line-height: 24px;
+}
+.table-header tr{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    background-color: rgba(246, 247, 250, 1);
+    font-family: '微软雅黑 Bold', '微软雅黑';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    color: #666666;
+}
+.widget-header{
+    background-color: rgba(246, 247, 250, 1);
+}
+.center{
+    text-align: center;
+}
+.table-footer{
+    border-bottom: 1px solid #ddd;
+}
+.footer-button{
+    text-align: center;
+}
+.footer-button button{
+    margin-bottom: 40px;
+    width: 25%;
+}
+.btn:hover, .btn:focus, .btn.focus{
+    background-color: #188ae2;
+    color: #fff;
+}
+table tr td {
+    padding: 8px;
+    line-height: 1.428571429;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+.table{
+    margin-bottom: 0;
+}

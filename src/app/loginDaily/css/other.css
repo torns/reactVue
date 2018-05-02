@@ -1,0 +1,47 @@
+.no-pointer{
+    pointer-events: none;
+    background-color: rgba(242, 242, 242, 1);
+}
+/*.widget-header label{*/
+    /*font-size: 12px;*/
+/*}*/
+.header-col{
+    width: 217px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+    color: #999;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.widget-header button.btn{
+    padding: 5px;
+    color: #fff;
+}
+.widget-header button.btn:hover,
+.widget-header button.btn:focus,
+.widget-header button.btn.focus,
+.widget-header button.btn:active:focus{
+    color: #fff;
+}
+.app-footer {
+    border-top: 0;
+    padding: 0 0 15px 0!important;
+}
+.table-bordered > thead > tr > th{
+    text-align: center;
+    background-color: rgba(246, 247, 250, 1);
+    color: #666666;
+}
+.table-bordered > tbody > tr > td{
+    text-align: center;
+}
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
+    border-bottom-width: 1px;
+}
+.table-bordered > thead > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > tfoot > tr > td{
+    border: 1px solid #ddd;
+}
+.dataTables_wrapper {
+    height: 445px;
+}

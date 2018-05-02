@@ -1,0 +1,53 @@
+table tr td:nth-child(3){
+    display: inline;
+}
+table tr td:nth-child(3)>span{
+    line-height: 38px;
+}
+.list-previous-position{
+    position: relative;
+}
+.list-previous{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    -webkit-box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.08);
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.08);
+    width: 130px;
+    height: 96px;
+    border: 1px solid #eeeeee;
+    left: 100%;
+    top: 14px;
+    overflow-y: auto;
+}
+.list-previous span{
+    position: absolute;
+    left: -13px;
+    top: 0;
+    color: white;
+    /*border: 1px solid #eeeeee;*/
+}
+.list-previous ul{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.list-previous ul li{
+    padding-left: 5px;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+}
+.list-previous ul li:hover{
+    background-color: rgba(237, 240, 245, 0.5);
+}
+#content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.modelTree{
+    display:unset;
+}

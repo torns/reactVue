@@ -1,0 +1,319 @@
+.md8-left{
+    background: #fff;
+    width: 100%;
+    height: 424px;
+    box-shadow: 0 1px 2px #ccc;
+}
+.space-frame .widget-body{
+    height:374px;
+}
+.widget-separator {
+    margin: 0;
+}
+.md4-right .right-title{
+    font-family: '微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
+    font-weight: 700;
+    font-style: normal;
+    color: #999999;
+}
+/*dataTable*/
+.dataTables_length,.dataTables_filter{
+    display: none;
+}
+/*原有的*/
+#default-datatable_info{
+    display: none;
+}
+#default-datatable_paginate{
+    display: none;
+}
+.table > thead > tr > th, .table > thead > tr > td, .table > tbody > tr > th, .table > tbody > tr > td, .table > tfoot > tr > th, .table > tfoot > tr > td{
+    border-top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.td-content{
+    /*max-width: 336px;*/
+    max-width: 260px;
+}
+.td-files .file_name{
+    max-width: 75px;
+}
+.table > thead > tr > th{
+    border-bottom: 0;
+}
+table.dataTable thead .sorting:after,table.dataTable thead .sorting_asc:after{
+    display: none!important;
+}
+td .position-png{
+    width: 26px;
+    margin-left: 16px;
+}
+.td-handles>img{
+    cursor: pointer;
+}
+.td-editOver,.td-searchOver{
+    display: none;
+}
+.form-control{
+    height: 32px;
+}
+.fa_caret {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+.time-input{
+    border-radius: 4px;
+    height: 32px;
+    border: 1px solid #ccc;
+}
+.modal-body{
+    padding: 0px 20px;
+}
+.modal-footer{
+    border-top: 0;
+}
+.up_btn>.webuploader-pick{
+    height: 32px;
+    padding: 5px;
+    background: #fff!important;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 111px;
+    text-align: center;
+}
+.up_btn img{
+    height: 14px;
+}
+.time_row .col-xs-9 img{
+    width: 14px;
+    position: absolute;
+    top: 9px;
+    right: 19px;
+}
+.widget-header .row>.col-xs-2{
+    padding-right: 0;
+}
+.list-content .widget-header select{
+    padding-left: 5px;
+    color: #999;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+}
+.list-content .widget-header input{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+    color: #999;
+    /*border: 1px solid #ccc;*/
+    border-radius: 4px;
+}
+.dataTables_wrapper{
+    height: 400px;
+}
+/*选择关联元素*/
+.related-center.look-modal .modal-body{
+    padding:0;
+}
+.related-center.look-modal .modal-body>div>div.row{
+    padding: 10px 0;
+}
+.related-center .borderStyle
+/*.add-event-center .borderStyle,*/
+/*.detail-event-center .borderStyle*/
+{
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+    padding:0;
+    margin-bottom: 15px;
+    height: 220px;
+}
+.related-center .col-sm-1 img{
+    margin-top: 95px;
+    cursor: pointer;
+}
+
+.related-center .right .contentHeader {
+    margin: 0px;
+    background: #FAFAFA;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #999999;
+    padding: 7px 0px 9px 0px;
+}
+
+.related-center >.modal-body  .right .right-content {
+    padding: 10px;
+    height: 81%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.related-center >.modal-body .right .contentCenter{
+    padding: 5px 0;
+}
+.look-modal .look-top{
+    /*height: 199px;*/
+    background: inherit;
+    background-color: rgba(242, 242, 242, 1);
+    border: none;
+    border-radius: 5px;
+    color: #999;
+    margin-top: 20px;
+}
+.look-modal .modal-body{
+    max-height: 500px;
+    overflow-y: scroll;
+    padding: 0 15px;
+}
+.look-modal .modal-body .question{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    height: 100px;
+    padding: 5px 10px;
+}
+.look-modal .modal-body .line{
+    /*height: 1px;*/
+    /*background-color: #ccc;*/
+    /*margin: 0 15px;*/
+}
+.look-modal .modal-body>div>div.row{
+    margin-top: 0px;
+    padding: 10px 15px;
+}
+/*过程*/
+.look-modal .modal-body .circle.bg-blue,
+.track-center .circle.bg-blue,
+.setFlow-center .circle.bg-blue{
+    background: #108EE9;
+    width: 27px;
+    height: 27px;
+    border: 3px rgba(228, 228, 228, 1) solid;
+    position: absolute;
+    left: 0;
+    margin-left: -14.5px;
+}
+.look-modal .modal-body .one-part,
+.track-center .one-part,
+.setFlow-center .one-part{
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(228, 228, 228, 1);
+    border-radius: 3px;
+    /*height: 152px;*/
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.look-modal .modal-body .one-part>.row,
+.track-center .one-part>.row,
+.setFlow-center .one-part>.row{
+    margin-bottom: 8px;
+}
+.look-modal .modal-body .one-part .pull-right,
+.track-center .one-part .pull-right,
+.setFlow-center .one-part .pull-right{
+    padding-right: 10px;
+}
+.look-modal .modal-body .look-center>.row,
+.track-center>.row,
+.setFlow-center>.row{
+    position: relative;
+}
+.look-modal .modal-body .look-center>.row>.col-xs-1,
+.track-center>.row>.col-xs-1,
+.setFlow-center>.row>.col-xs-1{
+    border-left: 2px solid #108EE9;
+    height: 100%;
+    position: absolute;
+    left: 5%;
+    top: 20px;
+    margin-top: 20px;
+}
+.look-modal .modal-body .look-center>.row:nth-last-child(1) .col-xs-1,
+.track-center>.row:nth-last-child(1) .col-xs-1,
+.setFlow-center>.row:nth-last-child(1) .col-xs-1{
+    border-left: 0;
+    height: 100%;
+    position: absolute;
+    left: 5%;
+    top: 20px;
+    margin-top: 20px;
+}
+.look-modal .modal-body .look-center>.row>.col-xs-11,
+.track-center>.row>.col-xs-11,
+.setFlow-center>.row>.col-xs-11{
+    margin-left: 8%;
+}
+.look-modal .modal-body .one-part .left-icon,
+.track-center .one-part .left-icon,
+.setFlow-center .one-part .left-icon{
+    position: absolute;
+    margin-left: -23px;
+    top: 30px;
+}
+#filePicker_3.up_btn{
+    margin: 5px 0;
+}
+#myModal_4 .look-btns{
+    padding: 20px;
+}
+#myModal_4 .look-btns .btn{
+    margin-left: 20px;
+}
+#treeDemos{
+    /*display: none;*/
+    /* display: none; */
+    background: #fff;
+    box-shadow: none;
+    padding: 0;
+}
+.innerBtn{
+    width: 100%;
+    text-align: left;
+}
+.dockPane{
+    position: absolute!important;
+    top: 2%!important;
+    left: 2%!important;
+}
+#ztreeContainer {
+    /*padding-top: 0;
+    padding-bottom: 0;
+    width: 95%!important;*/
+    padding: 0;
+    width: 100%;
+    height: 98%!important;
+    box-shadow: unset;
+    background-color: unset;
+    overflow-y: hidden!important;
+}
+.modelTree{
+    position: absolute!important;
+    left: 8%!important;
+    top: 15%!important;
+    width: 87%!important;
+    height: 84%!important;
+}
+#treeControl{
+    height: 88%!important;
+    box-shadow: none;
+}
+/*height*/
+.table-responsive{
+    height: 530px;
+}
+.pages{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}

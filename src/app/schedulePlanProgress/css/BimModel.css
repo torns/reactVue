@@ -1,0 +1,28 @@
+.dockPane{
+    position: absolute!important;
+    z-index: 99;
+}
+#toolBar{
+    z-index: 99;
+}
+.modelTree{
+    display:unset!important;
+    position:unset!important;
+}
+#treeHeader{
+    display: none;
+}
+#ztreeContainer{
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 95%!important;
+    height: 98%;
+    box-shadow: unset;
+    background-color: unset;
+    overflow-y: hidden!important;
+}
+#treeControl{
+    height: 100%!important;
+    box-shadow: unset;
+}
+/*注释：ztreeContainer  在v3d.min.js中删除了 width!important*/

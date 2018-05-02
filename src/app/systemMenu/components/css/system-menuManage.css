@@ -1,0 +1,245 @@
+.md8-left{
+    background: #fff;
+    height: 424px;
+}
+.space-frame .widget-body{
+    height:374px;
+}
+.widget-separator {
+    margin: 0;
+}
+.md4-right .right-title{
+    font-family: '微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
+    font-weight: 700;
+    font-style: normal;
+    color: #999999;
+}
+/*dataTable*/
+.dataTables_length,.dataTables_filter{
+    display: none;
+}
+/*原有的*/
+#default-datatable_info{
+    display: none;
+}
+#default-datatable_paginate{
+    display: none;
+}
+.table > thead > tr > th, .table > thead > tr > td, .table > tbody > tr > th, .table > tbody > tr > td, .table > tfoot > tr > th, .table > tfoot > tr > td{
+    border-top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.td-content{
+    /*max-width: 336px;*/
+    max-width: 165px;
+}
+.td-files.file_name{
+    max-width: 75px;
+}
+.table > tbody > tr > td{
+    vertical-align: bottom;
+    /*border-bottom: 1px solid #ddd;*/
+}
+table.dataTable thead .sorting:after,table.dataTable thead .sorting_asc:after{
+    display: none!important;
+}
+td .position-png{
+    width: 26px;
+    margin-left: 16px;
+}
+.td-handles>img{
+    cursor: pointer;
+}
+.td-editOver,.td-searchOver{
+    display: none;
+}
+.form-control{
+    height: 32px;
+}
+.fa_caret {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+.time-input{
+    border-radius: 4px;
+    height: 34px;
+    border: 1px solid #ccc;
+}
+.modal-body{
+    padding: 15px 50px;
+}
+.modal-footer{
+    border-top: 0;
+}
+.up_btn>.webuploader-pick{
+    height: 32px;
+    padding: 5px;
+    background: #fff!important;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 111px;
+    text-align: center;
+}
+.up_btn img{
+    height: 14px;
+}
+.time_row .col-xs-9 img{
+    width: 14px;
+    position: absolute;
+    top: 9px;
+    right: 19px;
+}
+.widget-header .row>.col-xs-2{
+    padding-right: 0;
+}
+.list-content .widget-header select,.list-content .widget-header input{
+    padding-left: 5px;
+    color: #999;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+}
+.dataTables_wrapper{
+    height: 400px;
+}
+.list-content .widget{
+    padding: 0;
+}
+table td{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.list-content table tr th:nth-child(1),
+.list-content table tr td:nth-child(1){
+    width: 10px!important;
+}
+.list-content table tr th:nth-child(2),
+.list-content table tr td:nth-child(2){
+    width: 160px!important;
+}
+.list-content table tr th:nth-last-child(1){
+    width: 111px!important;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+    padding: 3px;
+    line-height: 32px;
+    border-bottom: 0;
+}
+.square{
+    display: inline-block;
+    width: 20px;
+    height: 1px;
+    border-bottom: 1px solid #bcbcbc;
+    margin-bottom: 5px;
+}
+.square-left{
+    margin-left: 10px;
+    border-left: 1px solid #bcbcbc;
+}
+.table tbody tr:nth-last-child(1) td:nth-child(2) div{
+    border-left:0!important;;
+}
+.table tbody tr:nth-last-child(1) td:nth-child(2) div span{
+    height: 16px;
+    border-left: 1px solid #bcbcbc;
+}
+.drop-list{
+    position: absolute;
+    top: 32px;
+    z-index: 10;
+    width: 94%;
+    height: 100px;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(217, 217, 217, 1);
+    border-radius: 4px;
+    -moz-box-shadow: 0px 0px 4px rgba(217, 217, 217, 0.988235294117647);
+    -webkit-box-shadow: 0px 0px 4px rgba(217, 217, 217, 0.988235294117647);
+    box-shadow: 0px 0px 4px rgba(217, 217, 217, 0.988235294117647);
+    font-family: 'Microsoft YaHei';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #666666;
+    text-align: left;
+    overflow-y: auto;
+    display: none;
+}
+.drop-list div{
+    padding: 7px 0;
+    text-align: center;
+}
+.dropList-input{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+    color: #999;
+}
+.drop-list div input{
+    width: 98%;
+    height: 28px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.drop-list li{
+    height: 22px;
+    line-height: 20px;
+    padding-left: 18px;
+}
+.drop-list li:hover{
+    background-color: #1296db;
+    color: white;
+}
+.dropList i{
+    position: absolute;
+    right: 24px;
+    z-index: 9;
+    top: 10px;
+}
+.el-form-item__content{
+    float: unset!important;
+}
+/*.el-form .el-select{*/
+    /*width: 100%;*/
+/*}*/
+/*.el-scrollbar ul input{*/
+    /*width: 96%;*/
+    /*margin: 0px auto;*/
+    /*border: 1px solid #ccc;*/
+    /*border-radius: 4px;*/
+    /*padding: 4px 10px;*/
+    /*margin-left: 2%;*/
+/*}*/
+.el-form-item__error{
+    padding-top: 0;
+}
+/*追加的*/
+.el-dialog__body{
+    margin-top: -25px;
+    padding: 0;
+}
+.el-dialog__body .modal-header{
+    margin-bottom: 20px;
+}
+.el-form.demo-ruleForm{
+    padding: 0 20px;
+}
+.el-input__inner{
+    height: 30px;
+}

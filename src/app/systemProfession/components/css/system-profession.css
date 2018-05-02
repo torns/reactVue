@@ -1,0 +1,167 @@
+.md8-left{
+    background: #fff;
+    height: 424px;
+}
+.space-frame .widget-body{
+    height:374px;
+}
+.widget-separator {
+    margin: 0;
+}
+.md4-right .right-title{
+    font-family: '微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
+    font-weight: 700;
+    font-style: normal;
+    color: #999999;
+}
+/*dataTable*/
+.dataTables_length,.dataTables_filter{
+    display: none;
+}
+/*原有的*/
+#default-datatable_info{
+    display: none;
+}
+#default-datatable_paginate{
+    display: none;
+}
+.table > thead > tr > th, .table > thead > tr > td, .table > tbody > tr > th, .table > tbody > tr > td, .table > tfoot > tr > th, .table > tfoot > tr > td{
+    border-top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.td-content{
+    /*max-width: 336px;*/
+    max-width: 165px;
+}
+.td-files.file_name{
+    max-width: 75px;
+}
+.table > thead > tr > th{
+    border-bottom: 0;
+}
+table.dataTable thead .sorting:after,table.dataTable thead .sorting_asc:after{
+    display: none!important;
+}
+td .position-png{
+    width: 26px;
+    margin-left: 16px;
+}
+.td-handles>img{
+    cursor: pointer;
+}
+.td-editOver,.td-searchOver{
+    display: none;
+}
+.form-control{
+    height: 32px;
+}
+.fa_caret {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+.time-input{
+    border-radius: 4px;
+    height: 34px;
+    border: 1px solid #ccc;
+}
+.modal-body{
+    padding: 15px 50px;
+}
+.modal-footer{
+    border-top: 0;
+}
+.up_btn>.webuploader-pick{
+    height: 32px;
+    padding: 5px;
+    background: #fff!important;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 111px;
+    text-align: center;
+}
+.up_btn img{
+    height: 14px;
+}
+.time_row .col-xs-9 img{
+    width: 14px;
+    position: absolute;
+    top: 9px;
+    right: 19px;
+}
+.widget-header .row>.col-xs-2{
+    padding-right: 0;
+}
+.list-content .widget-header select,.list-content .widget-header input{
+    padding-left: 5px;
+    color: #999;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+}
+.dataTables_wrapper{
+    height: 400px;
+}
+.list-content .widget{
+    padding: 0;
+}
+table td{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.list-content table tr th:nth-child(1),
+.list-content table tr td:nth-child(1){
+    width: 10px!important;
+}
+.list-content table tr th:nth-child(2),
+.list-content table tr td:nth-child(2){
+    width: 150px!important;
+}
+.list-content table tr th:nth-child(4){
+   text-align: right;
+}
+.list-content table tr td:nth-child(4){
+    text-align: right;
+    /*padding-right: 23px;*/
+}
+/*头部*/
+.widget-header select, .widget-header input {
+    padding-left: 5px;
+    color: #999;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+}
+.position-btn {
+    position: absolute;
+    right: 10px;
+}
+.el-form-item__content{
+    float: unset!important;
+}
+/*追加的*/
+.el-dialog__body{
+    margin-top: -25px;
+    padding: 0;
+}
+.el-dialog__body .modal-header{
+    margin-bottom: 20px;
+}
+.el-form.demo-ruleForm{
+    padding: 0 20px;
+}
+.el-input__inner{
+    height: 30px;
+}

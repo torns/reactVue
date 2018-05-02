@@ -1,0 +1,20 @@
+input.el-input__inner{
+    height: 30px!important;
+}
+.edit-center{
+    padding: 0 15px;
+    padding-bottom: 20px;
+}
+.vueditor{
+    min-height: 450px;
+}
+.ve-toolbar{
+    position: relative;
+}
+.backColor:hover{
+    background: unset!important;
+}
+.el-button--text.is-disabled{
+    background-color: #a0cfff!important;
+    border-color: #a0cfff;
+}
